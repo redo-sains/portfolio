@@ -1,0 +1,57 @@
+/** @format */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-margin-top: 200px;
+}
+
+.zeroPercent {
+  height: 0% !important;
+  transition: ease-out 0.5s;
+}
+
+.displayMenu {
+  display: flex !important;
+  background-color: black;
+  transform: translateY(0) !important;
+  opacity: 1 !important;
+  transition: ease-in 0.75s !important;
+}
+
+#xIcon {
+  display: none;
+}
+
+#Facebook:hover {
+  color: rgb(21, 51, 141);
+  transition: 0.3s ease-out;
+}
+
+#Instagram:hover {
+  color: #e1306c;
+  transition: 0.3s ease-out;
+}
+
+#Twitter:hover {
+  color: rgb(29, 161, 242);
+  transition: 0.3s ease-out;
+}
+
+#Linkedin:hover {
+  color: #0077b5;
+  transition: 0.3s ease-out;
+}
+
+#GooglePlus:hover {
+  color: #db4a39;
+  transition: 0.3s ease-out;
+}
